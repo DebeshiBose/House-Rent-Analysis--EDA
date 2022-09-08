@@ -13,7 +13,7 @@ for percent_complete in range(100):
 st.title(" 🏡 House Rent Analysis Using Plotly ")
 
 st.subheader("This is the DataFrame which has been used to create visual charts 👩‍💻")
-df = pd.read_csv('..\House_Rent_Dataset.csv')
+df = pd.read_csv('House_Rent_Dataset.csv')
 
 #Displaying the DataFrame
 st.dataframe(df)
